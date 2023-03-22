@@ -10,3 +10,4 @@ services:
       WECOM_KEY: ${WECOM_KEY}
     volumes:
       - /etc/timezone:/etc/timezone:ro
+    restart: always
